@@ -1,4 +1,5 @@
 AllCops:
+  NewCops: enable
   Exclude:
     - db/**/*
     - config/**/*
@@ -99,7 +100,7 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   CountComments: true  # count full line comments?
   Max: 40
-  ExcludedMethods: [elastic_query_parameters, parameters]
+  IgnoredMethods: [elastic_query_parameters, parameters]
   Exclude:
     - "spec/**/*"
     - "db/migrate/*"
