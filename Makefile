@@ -1,6 +1,9 @@
 lint:
 	docker-compose run --rm web bash -c "bundle exec rubocop -a"
 
+run-test:
+	docker-compose run --rm web bash -c "rails test"
+
 migrate:
 	docker-compose run --rm web bash -c "rails db:migrate"
 
