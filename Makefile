@@ -1,3 +1,6 @@
+install:
+	docker-compose run --rm web bash -c "bundle install"
+
 lint:
 	docker-compose run --rm web bash -c "bundle exec rubocop -a"
 
