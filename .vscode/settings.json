@@ -32,8 +32,8 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
 
-  "ruby.useBundler": true,
-  "ruby.useLanguageServer": true,
+  "ruby.useBundler": false,
+  "ruby.useLanguageServer": false,
   "ruby.lint": {
     "rubocop": {
       "useBundler": true
