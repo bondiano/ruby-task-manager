@@ -1,3 +1,2 @@
-class Api:ApplicationController < ApplicationController
-  JsonResponder
+class Api::ApplicationController < ApplicationController
 end

@@ -4,5 +4,6 @@ FactoryBot.define do
     last_name
     email
     password
+    type { 'Admin' }
   end
 end
