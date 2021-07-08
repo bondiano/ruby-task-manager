@@ -10,8 +10,4 @@ FactoryBot.define do
   sequence :avatar do |n|
     "https://www.gravatar.com/avatar/#{n}"
   end
-
-  sequence :expired_at do |_n|
-    '2021-06-30'
-  end
 end
