@@ -6,6 +6,11 @@ import Rails from '@rails/ujs';
 import * as ActiveStorage from '@rails/activestorage';
 import 'channels';
 import 'material-design-lite/material.js';
+import TaskBoard from 'components/TaskBoard';
+
+import WebpackerReact from 'webpacker-react';
+
+WebpackerReact.setup({ TaskBoard });
 
 Rails.start();
 ActiveStorage.start();
