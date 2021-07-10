@@ -3,7 +3,7 @@ class Api::V1::ApplicationController < Api::ApplicationController
   helper_method :current_user
   respond_to :json
 
-  RANSACK_DEFAULT_SORT = 'id ASC'.freeze
+  RANSACK_DEFAULT_SORT = 'id desc'.freeze
 
   def self.responder
     JsonResponder
