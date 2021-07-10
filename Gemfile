@@ -22,6 +22,8 @@ gem 'simple_form'
 gem 'state_machines'
 gem 'state_machines-activerecord'
 gem 'slim-rails'
+gem 'simplecov', require: false, group: :test
+gem 'coveralls', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
